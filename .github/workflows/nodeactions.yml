@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-  test:
-    name: testing-app
-    runs-on: ubuntu-latest
-  
+    steps:
+       - name: testing-app
+         run: npm test
+    
