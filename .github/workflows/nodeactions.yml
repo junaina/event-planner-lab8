@@ -1,0 +1,12 @@
+name: nodeactions
+on:
+  push: 
+    branches:
+      -"main"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+  test:
+    name: testing-app
+    runs-on: ubuntu-latest
+  
